@@ -1,0 +1,42 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #ff66b2;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: #ff66b2;
+    text-decoration: none;
+}
+
+#passwordScreen {
+    margin-top: 50px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff66b2;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
