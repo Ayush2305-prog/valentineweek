@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanshu's Special Moments</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        body {
+          background-image: url('Pick3.jpg');
+          background-size: 25% 25%;
+          background-repeat: repeat;
+        }
+        .message {
+            font-size: 22px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        </style>
+    
+</head>
+<body>
+
+    <!-- Password Protected Entry -->
+    <div id="passwordScreen">
+        <h2>Welcome to Vanshu's World 💖</h2>
+              <img src="Picture6.jpg" style="width:500px;height:600px;" >
+            <p>Oyeeee Itni jaldi kya hai</p>
+        <p>Wese bhi Apko sab pta hai na....toh chalo ab password enter karo</p>
+        <input type="password" id="passwordInput" placeholder="Enter the secret...">
+        <button onclick="checkPassword()">Enter</button>
+        <p id="wrongPassword" style="display:none; color: red;">Vanshuuuu kyaaa huaaaa <br> aapko toh sab pta hai na😜 <br> Chalo Ayush please bolo</p>
+    </div>
+
+    <!-- Main Content (Hidden Until Password is Correct) -->
+    <div id="mainContent" style="display: none;">
+        <header>
+            <h1>Vanshu 💘 Happy Valentine's Week 💕</h1>
+            <p>For my love, my cuteness, my forever 😘</p>
+        </header>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="/choclate.html">💖 Special Moments</a></li>
+                <li><a href="#notes">💌 Love Notes</a></li>
+                <li><a href="#teasing">😜 Teasing Tales</a></li>
+                <li><a href="#secret">🤫 cute dares</a></li>
+                <li><a href="#valentine">💘 our goals</a></li>
+            </ul>
+        </nav>
+        <br><br><br><br><br><br>
+        <p class="message">
+            SO 7 FEB JO ROSE DAY HOTA HAI NA!!
+        </p>
+        <button class="btn" onclick="goBack()"><b>YAHA PAR CLICK KRO<BR> ROSE YAHA HAI</b></button>
+    
+        <script>
+            function goBack() {
+                window.location.href = 'rose.html';
+            }
+        </script>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <!-- Surprise Song -->
+        <div id="song">
+            <h2>🎶 Special Song : "Dur Na Kare" 🎶</h2>
+            <audio controls>
+                <source src="dur_na_kare.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <h2>🎶 "Vanshu" 🎶</h2>
+            <audio controls>
+                <source src="vanshu.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            
+        </div>
+        
+        <!-- Footer -->
+        <footer>
+            <p>Made with 💖 by Ayush for his Vanshu 💕</p>
+        </footer>
+    </div>
+
+</body>
+</html>
